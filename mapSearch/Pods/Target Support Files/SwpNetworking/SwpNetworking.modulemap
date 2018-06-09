@@ -1,0 +1,6 @@
+framework module SwpNetworking {
+  umbrella header "SwpNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

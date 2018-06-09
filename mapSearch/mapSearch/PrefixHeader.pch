@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  mapSearch
+//
+//  Created by yan feng on 2018/4/5.
+//  Copyright © 2018年 Yan feng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Masonry.h"
+#import <SwpNetworking/SwpNetworking.h>
+#import "MJExtension.h"
+#import "MBProgressHUD.h"
+
+
+
+
+static NSString * const formatted_address = @"AIzaSyC64-pviRcXSJrpCreByevWFo1m4XPUJWM";
+
+static NSString * const BasicURL = @"https://maps.googleapis.com/maps/api/geocode/json?address=";
+
+#endif /* PrefixHeader_pch */
